@@ -1,0 +1,12 @@
+# Local .terraform directories & cache
+**/.terraform/*
+
+# .tfstate files (contain sensitive data)
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+
+# CLI configuration files
+.terraformrc
+terraform.rc
