@@ -1,6 +1,6 @@
 resource_group_name = "rgdev"
 
-location         = "eastus"
+location         = "belgiumcentral"
 environment      = "dev"
 vnet_cidr        = "10.0.0.0/16"
 aks_subnet_cidr  = "10.0.0.0/24"
