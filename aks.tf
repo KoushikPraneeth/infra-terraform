@@ -9,6 +9,7 @@ resource "azurerm_kubernetes_cluster" "aks" {
     node_count     = var.aks_node_count
     vm_size        = var.aks_node_size
     vnet_subnet_id = azurerm_subnet.aks_subnet.id
+    max_pods       = 60
   }
 
   network_profile {
